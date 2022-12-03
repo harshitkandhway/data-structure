@@ -9,8 +9,7 @@ class UniqueNumberOccurrence {
             int value = mapper.get(i);
             if(set.contains(value))
                 return false;
-            else
-                set.add(value);
+            set.add(value);
         }
         return true;
     }
